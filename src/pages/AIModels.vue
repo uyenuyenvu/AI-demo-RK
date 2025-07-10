@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>{{ $t('app.models') }}</h1>
+    <div>
+      <button @click="createModel">Create Model</button>
+    </div>
     <div v-if="isLoading" class="loading">Loading...</div>
     <div v-else-if="error" class="error">{{ error }}</div>
     <table v-else class="models-table">
