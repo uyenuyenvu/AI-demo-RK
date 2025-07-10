@@ -10,6 +10,7 @@
           <th>{{ $t('app.models') }}</th>
           <th>{{ $t('app.modelDetail') }}</th>
           <th>Status</th>
+          <th>Created At</th>
           <th>Tags</th>
         </tr>
       </thead>
